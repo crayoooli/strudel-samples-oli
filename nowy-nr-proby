@@ -1,0 +1,25 @@
+//$: s("[bd <hh oh>]*2").bank("tr909").dec(.4)//
+//setcpm(90)
+ 
+//$:s("<hh hh [~ hh hh] hh [hh hh]>*4")
+ 
+//$:n("<6 4 2 <1 0> 5>*4")
+  //.scale("C:minor")
+  //.scale("E:dorian")
+  //.sound("piano")
+  //.pianoroll({labels:1})
+ 
+//note("<1 2>").
+  //chord("<Fm7 Fb7 F#m7 F^7>").voicing().s("piano")
+ 
+//$:n("<0 1 3>*3").chord("<Am [Am7, G] FM7 C>").slow(4).voicing().gain(0.9).s("piano")//
+$:n("<0 1 3>*3").chord("<Bm [Bm7, A] GM7 D>").slow(5).voicing().gain(0.9).s("piano")
+//$:n("<0 1 3>*3").chord("<GM7 D Bm [Bm7, A] >").slow(5).voicing().gain(0.9).s("piano")
+//$:n("<5@2 2 0 1 3>*3").chord("<Am [Am7, G] FM7 C>").slow(4).voicing().gain(1).s("gm_violin")
+//$:n("<5@2 2 5 4 3>*3").add("<0 0 1 1>").chord("<Am [Am7, G] FM7 C>").slow(4).voicing().s("gm_violin").room(0.4)
+ 
+//note("g3").s("piano")
+ 
+//$:n("<1 2 3 4>*4").scale("A:minor").s("piano")
+
+//$:n("0 2 1 3").chord("<Bm [Bm7, A] GM7 D>").arp().s("piano")
